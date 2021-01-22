@@ -26,7 +26,7 @@ function kilometerToMeter(kilometer) // define a function named kilometerToMeter
 
 function budgetCalculator(watch,mobile,laptop) // defining the function named budgetCalculator with 3 parameter.
     {
-        if (watch>=0,mobile>=0,laptop>=0) // giving a condition for valid input.
+        if (watch>=0 && mobile>=0 && laptop>=0) // giving a condition for valid input.
             {
                 var totalCost = (watch*50)+(mobile*100)+(laptop*500); // calculating the total cost
                 return totalCost;
